@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "status": "download_links_verified",
+  "packages": [
+    {
+      "id": "tensorrt_engines_archive",
+      "role": "on_device_runtime_engines",
+      "filename": "Delta_monocular_pnp_TensorRT_engines.zip",
+      "destination": "downloads/models/Delta_monocular_pnp_TensorRT_engines.zip",
+      "google_drive_file_id": "1xsGHO8v09NgkF-WJUbTigseT6CgzYTzB",
+      "download_page": "https://drive.google.com/file/d/1xsGHO8v09NgkF-WJUbTigseT6CgzYTzB/view?usp=sharing",
+      "expected_bytes": 167573683,
+      "members": [
+        {
+          "id": "depth_runtime_engine",
+          "task": "depth",
+          "role": "deployed_tensorrt_fp16_engine",
+          "archive_path": "adabins_ft_eval_rgb480x640_fp16.engine",
+          "destination": "tensorrt_deployment/artifacts/engines/adabins_ft_eval_rgb480x640_fp16.engine",
+          "expected_bytes": 173428580
+        },
+        {
+          "id": "detection_runtime_engine",
+          "task": "detection",
+          "role": "deployed_tensorrt_fp16_engine",
+          "archive_path": "yolov8s_fp16.engine",
+          "destination": "tensorrt_deployment/artifacts/engines/yolov8s_fp16.engine",
+          "expected_bytes": 25588273
+        }
+      ]
+    }
+  ]
+}

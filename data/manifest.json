@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "status": "download_links_verified",
+  "datasets": [
+    {
+      "id": "depth_dataset",
+      "task": "depth",
+      "filename": "Depth_Dataset.zip",
+      "destination": "downloads/data/Depth_Dataset.zip",
+      "google_drive_file_id": "1HvFzt6cVB4kj__SZr1kLksfSv2X6MWPh",
+      "download_page": "https://drive.google.com/file/d/1HvFzt6cVB4kj__SZr1kLksfSv2X6MWPh/view?usp=sharing",
+      "expected_bytes": 22089590042,
+      "released_counts": {
+        "train_pairs": 30641,
+        "validation_pairs": 864,
+        "test_pairs": 1097,
+        "total_pairs": 32602
+      }
+    },
+    {
+      "id": "detection_dataset",
+      "task": "detection",
+      "filename": "Detection_Dataset.zip",
+      "destination": "downloads/data/Detection_Dataset.zip",
+      "google_drive_file_id": "1-wUX-Eqa-RUqGxmrVZ9NkU0q-ULWhb7A",
+      "download_page": "https://drive.google.com/file/d/1-wUX-Eqa-RUqGxmrVZ9NkU0q-ULWhb7A/view?usp=sharing",
+      "expected_bytes": 253987435,
+      "released_counts": {
+        "train_pairs": 3381,
+        "validation_pairs": 199,
+        "test_pairs": 402,
+        "total_pairs": 3982
+      }
+    }
+  ]
+}

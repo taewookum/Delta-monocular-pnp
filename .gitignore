@@ -1,0 +1,39 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+adabins_env/
+
+# Downloaded datasets and model artifacts
+downloads/
+datasets/
+*.zip
+*.tar.gz
+*.engine
+*.onnx
+*.pt
+*.pth
+*.part
+
+# Runtime-generated output and caches
+yolo_debug/
+ultralytics_config/
+tensorrt_deployment/artifacts/staging/
+results/
+logs/
+*.log
+
+# Visual Studio and NuGet outputs
+Robot_GUI/.vs/
+Robot_GUI/packages/
+Robot_GUI/**/bin/
+Robot_GUI/**/obj/
+*.user
+*.suo
+
+# Local secrets and operating-system files
+.env
+.env.*
+.DS_Store
+Thumbs.db
